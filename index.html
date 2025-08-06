@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Para Mi Amor ❤️</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Para mi niña hermosa 💖</h1>
+        <p class="letter">Gracias por todo el amor que me das, te amo muchísimo ❤️</p>
+
+        <div class="carousel">
+            <img id="carousel-image" src="foto1.jpeg" alt="Foto juntos" onclick="showModal()" />
+            <button class="nav left" onclick="prevImage()">⟨</button>
+            <button class="nav right" onclick="nextImage()">⟩</button>
+        </div>
+
+        <h2>Canciones que te dedico amor: 🎶</h2>
+        <ul class="songs">
+            <li><a href="https://youtu.be/RP9Y88eEtf8" target="_blank"> Rels B – A Mí</a></li>
+            <li><a href="https://youtu.be/GDRjC-OQsLQ" target="_blank">Labios de Cereza 2</a></li>
+            <li><a href="https://youtu.be/poXmBG_Nkck" target="_blank">Vencedor</a></li>
+            <li><a href="https://youtu.be/xovXSMcglE4" target="_blank">Me Gustas Mucho - Ariel Camacho</a></li>
+        </ul>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal" onclick="hideModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span class="close" onclick="hideModal()">×</span>
+            <p>Frase personalizada aquí</p>
+        </div>
+    </div>
+
+    <!-- Fondo animado -->
+    <div id="falling-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
