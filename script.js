@@ -1,7 +1,7 @@
 let images = [
-    'foto1.jpeg', 'foto2.jpeg', 'foto3.jpeg',
-    'foto4.jpeg', 'foto5.jpeg', 'foto6.jpeg',
-    'foto7.jpeg', 'foto8.jpeg', 'foto9.jpeg'
+    'Foto1.jpeg', 'Foto2.jpeg', 'Foto3.jpeg',
+    'Foto4.jpeg', 'Foto5.jpeg', 'Foto6.jpeg',
+    'Foto7.jpeg', 'Foto8.jpeg', 'Fsoto9.jpeg'
 ];
 
 
@@ -68,3 +68,4 @@ setInterval(createFallingShape, 500);
 
 // (Opcional) cambiar imagen automáticamente
 setInterval(nextImage, 20000);
+
